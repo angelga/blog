@@ -11,6 +11,8 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'http://agarcia.pw'
+SITELOGO = SITEURL + '/img/profile.png'
+FAVICON = SITEURL + '/img/favicon.ico'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
