@@ -1,6 +1,6 @@
 Title: About
 
-![profile picture](../img/profile.png)
+![profile picture](../img/profile.png "Profile picture")
 
 Developer with experience in:
 
