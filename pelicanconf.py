@@ -34,5 +34,4 @@ DEFAULT_PAGINATION = 5
 #Customize theme to:
 #- Show static content in home page
 #- Also show last blog post
-#- All posts: show summary + all posts
 #- Upload theme changes to github
