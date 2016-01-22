@@ -5,7 +5,7 @@ Title: About
 Developer with experience in:
 
 - Operating System User Experience (Windows 8)
-- Office File I/O (Office 12/14/15)
+- Office File I/O
 - Services (SharePoint)
 
 More info:
@@ -14,4 +14,4 @@ More info:
 - [GitHub profile](https://github.com/angelga)
 
 ## Contact info
-azmavet [at] gmail [dot] com
+me [at] agarcia [dot] pw

@@ -8,7 +8,7 @@ SITEURL = u'http://localhost:8000'
 SITETITLE = AUTHOR
 SITESUBTITLE = u'Dev/Human'
 FAVICON = SITEURL + '/img/favicon.ico'
-THEME = 'myidea'
+THEME = 'elegant'
 TIMEZONE = 'America/Chihuahua'
 
 USE_FOLDER_AS_CATEGORY = True
@@ -30,8 +30,11 @@ STATIC_PATHS = [
 
 DEFAULT_PAGINATION = 5
 
+LANDING_PAGE_ABOUT = {'title': 'developer',
+		'details': """<p>Hello, my name is <a href="https://www.linkedin.com/in/angelga">Angel Garcia Reyes</a>. I'm a former Microsoft developer with experience in the Windows and Office ecosystem and cloud services.</p>
+		<p>I'm currently interested in Python, bash, web technologies, and *nix.</p>
+		<p>I also love traveling and recently took a sabbatical and visited South America and Mexico.</p>"""}
+
 #TODO
 #Customize theme to:
-#- Show static content in home page
 #- Also show last blog post
-#- Upload theme changes to github
