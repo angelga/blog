@@ -17,20 +17,22 @@
 # Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
 ##
 server {
+	listen [::]:80;
 	listen 80;
 	server_name ang3l.xyz www.ang3l.xyz;
-	rewrite ^ https://$server_name$request_uri? permanent;
+	return 301 https://ang3l.xyz$request_uri;
 }
 
 server {
-	listen 80 default;
+	listen [::]:443 ssl;
 	listen 443 ssl;
+	server_name ang3l.xyz;
  
 	root /var/www/ang3l.xyz/html;
 	index index.html index.htm;
 
 	# Make site accessible from http://localhost/
-	server_name ang3l.xyz;
+	ssl on;
 	ssl_certificate /home/angel/key/ang3l.xyz.crt;
         ssl_certificate_key /home/angel/key/ang3l.xyz.key;
 	ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
