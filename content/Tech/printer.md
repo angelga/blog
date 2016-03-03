@@ -18,3 +18,7 @@ The printer connects to your home network via WiFi. It did give me a lot of head
 - Turn on IPv6
 
 That's it. After turning on IPv6, my mac and iphone never fail to connect. Happy scanning! 
+
+## 02/11 Update
+
+There's an even better workflow that I've found. You can register a dropbox account in this printer (simple process, you're given a link that you can open from your browser, you link your dropbox account with the printer, copy a code back into the printer, and you're set. Then, you can just open the Dropbox Web App in the printer Home menu, and scan directly to PDF (and other formats). The scan is uploaded to your dropbox account automatically, and very quickly downloaded to your PC. I find this workflow to be easier than using the quirky Image Capture app in Mac.
