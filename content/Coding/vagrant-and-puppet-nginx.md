@@ -1,6 +1,6 @@
 Title: Configure nginx using Vagrant and Puppet
 Date: 2016-02-11
-Tags: 
+Tags: vagrant, puppet
 
 Here's a simple exercise, a hello world example for using Vagrant and Puppet together to congifure nginx. I'm going to use an existing Vagrant box from puppetlabs, specifically Ubuntu 12.04 precise. Then use Vagrant to:
 
